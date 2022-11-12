@@ -1,4 +1,4 @@
-package composicao;
+package composicao.UmParaMuitos;
 
 public class CompreTeste {
     public static void main(String[] args) {

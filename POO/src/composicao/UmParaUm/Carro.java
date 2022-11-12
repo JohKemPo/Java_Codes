@@ -1,4 +1,4 @@
-package composicao;
+package composicao.UmParaUm;
 
 public class Carro {
     final Motor motor;// UmParaUm

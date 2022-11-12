@@ -1,4 +1,4 @@
-package composicao;
+package composicao.UmParaMuitos;
 
 import java.util.ArrayList;
 

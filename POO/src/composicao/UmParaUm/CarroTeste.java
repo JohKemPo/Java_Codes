@@ -1,4 +1,4 @@
-package composicao;
+package composicao.UmParaUm;
 
 public class CarroTeste {
     public static void main(String[] args) {

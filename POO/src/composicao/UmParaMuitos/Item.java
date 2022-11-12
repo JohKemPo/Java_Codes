@@ -1,4 +1,4 @@
-package composicao;
+package composicao.UmParaMuitos;
 
 public class Item {
     String nome;
