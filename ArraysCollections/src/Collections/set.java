@@ -1,7 +1,7 @@
 package Collections;
 
-import java.util.HashSet;
-import java.util.Set;
+//import java.util.HashSet;
+//import java.util.Set;
 
 public class set {
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class set {
          * 
          * POLIMOFIRMISMO
          */
-
+        /*
         HashSet conjunto = new HashSet<>();
         conjunto.add(1.2);
         conjunto.add(1);
@@ -47,5 +47,6 @@ public class set {
         
         conjunto.retainAll(nums); // intersec
         System.out.println(conjunto);
+         */
     }    
 }
