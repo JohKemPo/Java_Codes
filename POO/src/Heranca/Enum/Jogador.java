@@ -2,7 +2,13 @@ package Heranca.Enum;
 
 public class Jogador {
     int x, y, vida = 100;
-
+    Jogador(){
+        this(0,0);
+    }
+    Jogador(int x, int y){
+        this.x = x;
+        this.y = y;
+    }
     boolean atacar(Jogador opoten){
         int deltaX = Math.abs(x - opoten.x);
         int deltaY = Math.abs(y - opoten.y);

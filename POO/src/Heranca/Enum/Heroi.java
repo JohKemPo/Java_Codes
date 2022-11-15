@@ -1,6 +1,14 @@
 package Heranca.Enum;
 
 public class Heroi extends Jogador {
+    Heroi(){
+        super(0,0);
+    }
+    
+    Heroi(int x, int y){
+        super(x,y);
+    }
+
     boolean atacar(Jogador opoten){ // SObreescreve os atributos da classe pai
         int deltaX = Math.abs(x - opoten.x);
         int deltaY = Math.abs(y - opoten.y);
