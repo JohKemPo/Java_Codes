@@ -1,4 +1,3 @@
-package listas.Lista1;
 import java.util.Scanner;
 /*
 Determine as raízes de uma equação de 2o grau: ax2 + bx + c = 0 (recordar que o
