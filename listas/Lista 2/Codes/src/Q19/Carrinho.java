@@ -12,7 +12,7 @@ public class Carrinho extends Pedido{
         return true;
     }
 
-    String getFormaPagamento(ArrayList list){
+    String getFormaPagamento(ArrayList<Pedido> list){
         for(Pedido info: listaPedido){
             switch(info.formaPag){
                 case 1:
