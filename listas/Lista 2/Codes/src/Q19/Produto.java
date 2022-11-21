@@ -27,8 +27,6 @@ public class Produto {
         this.preco = preco;
     }
 
-
-
     @Override
     public boolean equals(Object o) {
         if (o == this)
