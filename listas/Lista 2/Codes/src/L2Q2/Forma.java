@@ -1,6 +1,8 @@
 package L2Q2;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Queue;
 
 public abstract class Forma extends Pontos{
     ArrayList<Pontos> coordenadas = new ArrayList<>();
@@ -18,5 +20,6 @@ public abstract class Forma extends Pontos{
     int getArrayY(int i){
         return coordenadas.get(i).getY();
     }
+    
     public abstract double area();
 }
