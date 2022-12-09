@@ -10,7 +10,7 @@ public class Pilha {
         livros.add("PppPp");
         livros.add("Aaa");
         livros.push("Pp");// add top
-        //System.out.println(livros);
+        System.out.println(livros);
 
         System.out.println(livros.peek());
     }

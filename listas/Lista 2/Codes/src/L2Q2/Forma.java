@@ -1,8 +1,8 @@
 package L2Q2;
 
-import java.lang.reflect.Array;
+// import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Queue;
+// import java.util.Queue;
 
 public abstract class Forma extends Pontos{
     ArrayList<Pontos> coordenadas = new ArrayList<>();
