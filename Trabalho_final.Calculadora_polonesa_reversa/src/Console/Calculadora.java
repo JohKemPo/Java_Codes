@@ -8,7 +8,7 @@ public class Calculadora {
     
         // Operacao teste = new Operacao(1.0,2.5,'+');// ERROR
         // Operacao teste = new Soma(2,2,'+');
-        Operacao teste = new Soma();
+        Operacao teste = new Base();
         teste.setA(2);
         teste.setB(2);
         teste.setOp('+');
