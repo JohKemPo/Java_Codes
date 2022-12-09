@@ -5,8 +5,6 @@ public abstract class Operacao{
     private double a, b;
     private char op;
 
-   
-
     public double getA() {
         return this.a;
     }
