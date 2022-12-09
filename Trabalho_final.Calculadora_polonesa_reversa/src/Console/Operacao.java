@@ -5,6 +5,7 @@ public abstract class Operacao{
     private double a, b;
     private char op;
 
+
     public double getA() {
         return this.a;
     }
@@ -31,8 +32,8 @@ public abstract class Operacao{
 
 
     public String toString() {
-		return "Resultado da operação: " + (Operacao(a, b));
+		return "Resultado da operação: " + (operacao(a, b));
 	}
-    public abstract double Operacao(double a, double b);
+    public abstract double operacao(double a, double b);
 
 }

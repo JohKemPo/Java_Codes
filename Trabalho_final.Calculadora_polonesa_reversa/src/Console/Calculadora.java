@@ -11,7 +11,7 @@ public class Calculadora {
         // Operacao teste = new Operacao(1.0,2.5,'+');// ERROR
         // Operacao teste = new Soma(2,2,'+');
 
-        
+
         Operacao teste = new Base();
         Scanner in = new Scanner(System.in);
 
@@ -20,9 +20,9 @@ public class Calculadora {
         teste.setOp(in.next().charAt(0));
 
         
-        System.out.println(teste.getA());
-        System.out.println(teste.getB());
-        System.out.println(teste.getOp());
+        // System.out.println(teste.getA());
+        // System.out.println(teste.getB());
+        // System.out.println(teste.getOp());
 
 
         // System.out.println(teste.Operacao(teste.getA(), teste.getB()));

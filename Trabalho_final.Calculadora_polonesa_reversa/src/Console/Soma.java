@@ -12,7 +12,7 @@ public class Soma extends Operacao{
         this(0,0,' ');
     }
 
-    public double Operacao(double a, double b){
+    public double operacao(double a, double b){
         return a + b;
     }
 }
