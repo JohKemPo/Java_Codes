@@ -12,6 +12,6 @@ public class Base extends Operacao {
     }
 
     public double operacao(double a, double b){
-        return a + b;
+        return 0;
     }
 }

@@ -11,7 +11,7 @@ public class Calculadora {
         
         
         int validador = 0;
-        Operacao teste = new Base();
+        Operacao teste = new Base(); //Polimorfismo
         Scanner in = new Scanner(System.in);
 
         // Operacao teste = new Operacao(1.0,2.5,'+');// ERROR
