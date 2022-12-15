@@ -1,8 +1,9 @@
-package Console;
+package Main.Console;
 
 
 public abstract class Operacao{
     private double a, b;
+    // double ad, bd;
     private char op;
 
 
@@ -29,11 +30,17 @@ public abstract class Operacao{
     public void setOp(char op) {
         this.op = op;
     }
-
-
-    public String toString() {
-		return "Resultado da operação: " + (operacao(a, b));
-	}
+    
+    // public double convertAd(String a){
+    //     this.ad = Double.valueOf(a).doubleValue();
+    //     return this.ad;
+    // }
+    // public double convertBd(String b){
+    //     this.bd = Double.valueOf(b).doubleValue();
+    //     return this.bd;
+    // }
+    
+    public abstract String toString();
     public abstract double operacao(double a, double b);
 
 }

@@ -1,6 +1,6 @@
-package Console;
+package Main.Console;
 
-import java.util.Scanner;
+import java.util.*;
 
 // import Interface.Interface;
 
@@ -14,18 +14,8 @@ public class Calculadora {
         Operacao teste = new Base(); //Polimorfismo
         Scanner in = new Scanner(System.in);
 
-        // Operacao teste = new Operacao(1.0,2.5,'+');// ERROR
-        // Operacao teste = new Soma(2,2,'+');
+        Stack<String> pilha = new Stack<>();
         
-        
-        
-        
-        // System.out.println(teste.getA());
-        // System.out.println(teste.getB());
-        // System.out.println(teste.getOp());
-        
-        
-        // System.out.println(teste.Operacao(teste.getA(), teste.getB()));
 
         do{
             

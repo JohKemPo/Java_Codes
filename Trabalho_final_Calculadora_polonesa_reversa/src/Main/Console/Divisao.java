@@ -1,4 +1,4 @@
-package Console;
+package Main.Console;
 
 public class Divisao extends Operacao{
 
@@ -15,4 +15,8 @@ public class Divisao extends Operacao{
     public double operacao(double a, double b){
         return a / b;
     }
+
+    public String toString() {
+		return "Resultado da operação: " + (operacao(getA(), getB()));
+	}
 }
