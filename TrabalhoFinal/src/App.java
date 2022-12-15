@@ -21,7 +21,8 @@ public class App {
         ArrayList<String> separadas = new ArrayList<>();
 
         Scanner input = new Scanner(System.in);
-        String teste = "10 5 9 1 2 3 / * - + *";
+        // String teste = "10 5 9 - *";
+        String teste = "20r2i 9 -";
      
         Operacoes base = new Base(); //Polimorfismo
 
@@ -36,10 +37,15 @@ public class App {
         base.setOp(sep[(sep.length/2)+1].charAt(0));
 
         if(teste.toLowerCase().contains("i")){
+            String a_real, a_img;
+            String b_real, b_img;
+
             System.out.println("COMPLEXO");
+            a_real = separadas.get(0).toString();
+            // a_real = a_real.split("r");
+            System.out.println();
 
-
-
+            a_real = separadas.get((separadas.size()/2)-1);
 
         }else{
             while(separadas.size() > 1){
