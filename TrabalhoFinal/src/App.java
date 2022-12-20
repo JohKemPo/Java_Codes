@@ -20,8 +20,8 @@ public class App {
         ArrayList<String> separadas = new ArrayList<>();
 
         Scanner input = new Scanner(System.in);
-        //String teste = "10 5 9 - *";
-        String teste = "2r3i 4r6i /";
+        String teste = "10 5 9 - *";
+        //String teste = "2r3i 4r6i /";
      
         Operacoes base = new Base(); //Polimorfismo
 
